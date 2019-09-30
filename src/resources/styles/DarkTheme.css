@@ -1,0 +1,83 @@
+.background {
+    -fx-background-color: #0f71d3;
+}
+
+.label_white {
+    -fx-font-size: 15pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 7,0,0,1 );
+}
+
+.label_black {
+    -fx-font-size: 13pt;
+    -fx-text-fill: black;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+.imageView {
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 5,0,0,1 );
+}
+
+.button_white {
+    -fx-text-fill: #0f71d3;
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 7,0,0,1 );
+}
+.button_white:pressed {
+    -fx-text-fill: #0f71d3;
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 1,0,0,1 );
+}
+
+.button_blue {
+    -fx-text-fill: white;
+    -fx-background-color: #0f71d3;
+    -fx-background-radius: 15;
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 5,0,0,1 );
+}
+.button_blue:pressed {
+    -fx-text-fill: white;
+    -fx-background-color: #0f71d3;
+    -fx-background-radius: 15;
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 1,0,0,1 );
+}
+
+.textField {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-background-radius: 15;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 3,0,0,1 );
+    -fx-background-color: rgb(245,245,245);
+}
+
+.check-box>.box {
+  -fx-background-insets: 0;
+  -fx-background-radius: 0;
+  -fx-background-color: transparent;
+}
+
+.check-box>.box>.mark {
+  /*-fx-background-image: url("unmarked.png");*/
+  -fx-background-position: center;
+  -fx-background-repeat: stretch;
+  -fx-shape: none;
+}
+
+.check-box:selected>.box>.mark{
+  -fx-background-color: transparent;
+
+}
