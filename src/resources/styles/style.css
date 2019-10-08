@@ -1,0 +1,88 @@
+.background {
+    -fx-background-color: #34495E;
+}
+
+.m_background {
+    -fx-background-color: #ecf0f1;
+}
+
+.scrollpane {
+    -fx-background-color: #2980B9;
+}
+
+.label_light {
+    -fx-font-size: 15pt;
+    -fx-text-fill: #ECF0F1;
+    -fx-font-family: "Segoe UI Semibold";
+}
+.label_dark {
+    -fx-font-size: 15pt;
+    -fx-text-fill: #2C3E50;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+.button_blue {
+    -fx-text-fill: #ECF0F1;
+    -fx-background-color: #2980B9;
+    -fx-background-radius: 6;
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-effect: dropshadow( three-pass-box , #34495E , 2,1,0,0 );
+}
+.button_blue:pressed {
+    -fx-effect: dropshadow( three-pass-box , #3498DB , 2,1,0,0 );
+}
+
+.button_green {
+    -fx-text-fill: white;
+    -fx-background-color: #27AE60;
+    -fx-background-radius: 6;
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-effect: dropshadow( three-pass-box , #ECF0F1 ,  2,1,0,0 );
+}
+.button_green:pressed {
+    -fx-effect: dropshadow( three-pass-box , #2ECC71 ,  2,1,0,0 );
+}
+
+.textField {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-background-radius: 6;
+    -fx-text-fill: #2C3E50;
+    -fx-effect: dropshadow( three-pass-box , #BDC3C7 , 2,0.8,0,0 );
+    -fx-background-color: white;
+}
+.textField: focused {
+    -fx-effect: dropshadow( three-pass-box , #1ABC9C , 2,0.8,0,0 );
+}
+
+.check-box {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: #2C3E50;
+}
+
+.check-box .box{
+    -fx-background-radius: 6;
+    -fx-background-color: #BDC3C7;
+    -fx-background-insets: 0, 1;
+}
+.check-box:selected .box{
+    -fx-background-color: #1ABC9C;
+}
+.check-box:pressed .box{
+    -fx-effect: dropshadow( three-pass-box , #16A085 , 2,1,0,0 );
+}
+.check-box .mark {
+    -fx-shape:"M14.596,2.055L12.455,0C9.687,2.884,6.011,6.714,5.158,7.602L2.055,4.624L0,6.765l5.242,5.037l0.003-0.004l0.003,0.004L14.596,2.055z";
+    -fx-scale-x: 0.9;
+    -fx-scale-y: 0.9;
+}
+.check-box:selected .mark {
+    -fx-background-color: #ECF0F1;
+}
+.check-box:hover .mark {
+    -fx-background-color: #ECF0F1;
+}
+
